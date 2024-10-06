@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartTasks" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorAccent">@color/offwhite</item>
+    </style>
+
+    <style name="Theme.SmartTasks" parent="Base.Theme.SmartTasks" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Set the window background to your splash screen drawable -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="Theme.RemoveSplashScreenTheme" parent="@style/Base.Theme.SmartTasks">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
